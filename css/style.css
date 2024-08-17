@@ -1,0 +1,118 @@
+/*
+color-primario: #red;
+color-secundario: #white;
+color-terciario: #black;
+color-cuarto: #aqua;
+*/
+.encabezado{
+    background-color: red;
+    color: aqua;
+    font-family: fantasy;
+}
+.menu{
+    background-color: aqua;
+    border: 0.5px solid red;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+}
+.lista-padre{
+    list-style-type: none;
+    padding: 0%;
+}
+li{
+    font-family: fantasy;
+    font-size: larger;
+    padding: 0.5em;
+    border: 0.5px solid red;
+    text-align: center;
+    padding: 5px;
+}
+.link{
+    text-decoration: none;
+    color: red;
+}
+
+.formulario input{
+    width: 99%;
+    color: red;
+    background-color: aqua;
+}
+.about-us{
+    color: aqua;
+    font-family: fantasy;
+    font-size: xx-large;
+    background-image: url(https://i.pinimg.com/564x/1e/69/8d/1e698d53c26a5e0f68e4f039e3a10849.jpg);
+    background-size:cover;
+}
+.container{
+    color: red;
+    background-color: aqua;
+    font-family: fantasy;
+    padding: 0.5em;
+}
+.container-productos h1{
+    background-color: red;
+    color: aqua;
+    font-family: fantasy;
+}
+.container-productos img{
+    width:auto;
+    height: 300px;
+}
+@media(min-width: 992px) {
+    .encabezado{
+        font-size: xx-larger;
+        text-align: center;
+        padding: 1px;
+        margin-bottom: 2%;
+        border: 1px solid aqua;
+    }
+    .nba{
+        font-family: fantasy;
+        background-color: red;
+        color: aqua;
+        text-align: center;
+        border: 1px solid aqua;
+    }
+    .formulario{
+        font-style: italic;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+    }
+    .registro{
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu .lista-padre {
+        color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .container{
+        color: red;
+        background-color: aqua;
+        border: 0.5px solid red;
+        font-family: fantasy;
+        font-size: x-large;
+        padding: 2.5em;
+        margin-top: 1em;
+    }
+    footer{
+        background-color: aqua;
+        border: 0.5px solid red;
+        padding: 12.5px;
+        margin-top: 10%;
+        display: flex;
+    }
+}
+
+
+
+
+
